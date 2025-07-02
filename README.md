@@ -8,37 +8,13 @@ Script en Bash que realiza copias comprimidas de una carpeta específica y las g
 
 - Sistema operativo Linux
 - Bash instalado
-- Permisos de escritura en el directorio de destino (`/backups`)
+- Permisos de escritura en `/backups`
 
 ---
 
-## 🚀 Uso
+## 🚀 Cómo usarlo
+
+Dale permiso de ejecución al script (solo la primera vez):
 
 ```bash
-./backup.sh
-```
----
-El script:
-- Comprime la carpeta objetivo
-- Le agrega fecha y hora al nombre del archivo
-- Guarda el backup en /backups
-
----
-🧪 Ejemplo de ejecución
-
-``` $ ./backup.sh
-Backup creado: /backups/backup_2025-07-02_11-30.tar.gz
-```
----
-📂 Estructura del proyecto
-
-Automatizador-Backups/
-├── backup.sh
-└── README.md
----
-👩‍💻 Autor
-Camila — Día 9 del proyecto de automatización en Bash 🚀
-
----
-
-
+chmod +x backup.sh
