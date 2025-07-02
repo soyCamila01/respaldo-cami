@@ -13,3 +13,4 @@ else
     echo "[!] Carpeta origen no encontrada: $ORIGEN"
     exit 1
 fi
+echo "📏 Tamaño del archivo: $(du -h "$backup_dir/$archivo" | cut -f1)"
