@@ -69,6 +69,8 @@ Ruta: /etc
 Ruta: /home/usuario01/Documentos
 Ruta: fin
 ✅ Backup creado: /backups/backup_2025-07-02_21-10.tar.gz
+
+- ✅ Muestra el tamaño final del archivo `.tar.gz` generado
 ```
 
 ⚠️ Si el backup incluye carpetas protegidas como /etc, ejecutá el script con permisos elevados:
@@ -91,7 +93,7 @@ Ruta: fin
 ---
 📄 LicenciaEste proyecto está disponible bajo la Licencia MIT.
 ---
-👩‍💻 AutorCamila
+👩‍💻 Autor Camila
 Proyecto de Automatización de Backups en Bash — Día 10 🚀
 ---
 
