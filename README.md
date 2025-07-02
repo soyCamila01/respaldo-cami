@@ -26,9 +26,13 @@ chmod +x backup.sh
 ├── .gitignore
 └── README.md
 ```
----
-👩‍💻 Autor
-Camila — Día 9 del proyecto de automatización en Bash 🚀
 
+---
+
+## 👩‍💻 Autor
+
+**Camila**  
+Proyecto de Automatización de Backups en Bash — _Día 9_ 🚀  
+[Repositorio en GitHub](https://github.com/soyCamila01)
 ---
 
