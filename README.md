@@ -35,7 +35,7 @@ Backup creado: /backups/backup_2025-07-02_11-30.tar.gz
 Automatizador-Backups/
 ├── backup.sh
 └── README.md
-
+---
 👩‍💻 Autor
 Camila — Día 9 del proyecto de automatización en Bash 🚀
 
