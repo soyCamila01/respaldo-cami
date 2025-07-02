@@ -1,0 +1,24 @@
+# Archivos de backup
+*.bak
+*.tmp
+*.swp
+*~
+
+# Archivos comprimidos
+*.tar
+*.gz
+*.zip
+
+# Carpeta de backups local
+/backups/
+
+# Archivos ocultos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Configuraciones de editores
+.vscode/
+.idea/
