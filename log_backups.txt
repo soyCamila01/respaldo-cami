@@ -1,0 +1,85 @@
+------------------------------------------
+Fecha: 2025-07-05 09:07:29
+Rutas respaldadas: 
+Archivo generado: 
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:08:53
+Rutas respaldadas: 
+Archivo generado: 
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:11:13
+Rutas respaldadas: 
+Archivo generado: 
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:11:55
+Rutas respaldadas: 
+Archivo generado: 
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:12:08
+Rutas respaldadas: 
+Archivo generado: 
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:14:04
+Rutas respaldadas: 
+Archivo generado: /respaldo_2025-07-05_09-14-04.tar.gz
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:18:44
+Rutas respaldadas: 
+Archivo generado: 
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:20:11
+Rutas respaldadas: 
+Archivo generado: 
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:26:00
+Rutas respaldadas: 
+Archivo generado: 
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:27:11
+Rutas respaldadas: 
+Archivo generado: 
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:28:19
+Rutas respaldadas: 
+Archivo generado: 
+Tamaño del archivo: 
+
+------------------------------------------
+Fecha: 2025-07-05 09:48:08
+Ruta respaldada: /home/usuario01/documentos_importantes
+Archivo generado: /backups/respaldo_2025-07-05_09-48-08.tar.gz
+Tamaño del archivo: 4,0K
+
+------------------------------------------
+Fecha: 2025-07-05 09:50:17
+Ruta respaldada: /home/usuario01/documentos_importantes
+Archivo generado: /backups/respaldo_2025-07-05_09-50-17.tar.gz
+Tamaño del archivo: 4,0K
+
+──────────────────────────────────────────────
+🕒 Fecha: 2025-07-05 09:55:19
+📁 Ruta respaldada: /home/usuario01/documentos_importantes
+📦 Archivo generado: /backups/respaldo_2025-07-05_09-55-19.tar.gz
+📏 Tamaño final: 4,0K
+──────────────────────────────────────────────
+
