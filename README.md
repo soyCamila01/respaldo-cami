@@ -1,5 +1,8 @@
 # 🗂️ Automatizador de Backups
 
+![Versión](https://img.shields.io/badge/Versión-1.0-blue)
+![Estado](https://img.shields.io/badge/Estado-Estable-brightgreen)
+![Licencia](https://img.shields.io/badge/Licencia-MIT-purple)
 Script en Bash que realiza copias comprimidas de una carpeta específica y las guarda en un directorio `/backups` con fecha y hora. Ideal para automatizar respaldos en sistemas Linux.
 
 ---
