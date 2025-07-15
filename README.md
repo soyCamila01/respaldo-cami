@@ -443,3 +443,102 @@ MIT License
 👩‍💻 Author
 Camila — System diagnostics with Bash, Day 12 🚀
 ---
+# 🔐 PermCheck — Auditor de permisos en Bash (Día 13)
+
+Script interactivo que permite auditar los permisos de archivos dentro de una carpeta específica. Detecta configuraciones inseguras (como permisos `777` o escritura para otros usuarios) y genera un reporte técnico con fecha. Ideal para tareas de mantenimiento y seguridad en entornos Linux.
+
+---
+
+## ⚙️ Requisitos
+
+- Sistema operativo Linux  
+- Bash instalado  
+- Permisos de lectura en la carpeta objetivo  
+- Permisos de escritura en `/backups/reportes`
+
+---
+
+## 🚀 Cómo usar
+
+1. Dar permisos de ejecución al script:
+
+```bash
+chmod +x permission_audit.sh
+
+- Ejecutar el script:
+./permission_audit.sh
+
+
+- Ingresar la ruta de la carpeta que querés auditar
+- El reporte se guarda automáticamente en:
+/backups/reportes/permisos_dd-mm-yyyy.txt
+🧪 Ejemplo de ejecución📂 Ingresá la ruta de la carpeta a auditar: /home/usuario01/scripts
+🔎 Auditoría de permisos en: /home/usuario01/scripts
+🕒 Fecha: 2025-07-13 16:35:00
+-----------------------------------------
+⚠️ /home/usuario01/scripts/install.sh — Permisos: 777 [Inseguro]
+⚠️ /home/usuario01/scripts/debug.log — Permisos: 757 [Inseguro]
+✅ Auditoría completada. Resultado en: /backups/reportes/permisos_13-07-2025.txt
+🧠 Aprendizajes técnicos- Uso de stat, find, basename, read, tee
+- Validación de permisos peligrosos (777, escritura para otros)
+- Registro técnico automatizado
+- Interacción por consola con control de errores
+- Automatización simple para ciberseguridad en Bash
+📂 Estructura del proyectorespaldo-cami/
+├── permission_audit.sh
+├── backups/reportes/
+├── permisos_13-07-2025.txt
+├── LICENSE
+└── README.md
+📄 LicenciaMIT License👩‍💻 AutoraCamila — Auditoría técnica y seguridad en Bash, Día 13 🚀
+---
+🔐 README — PermCheck (Day 13)
+# 🔐 PermCheck — File Permission Auditor in Bash (Day 13)
+
+Interactive Bash script to audit file permissions inside a specified folder. It detects insecure configurations (like `777` or global write access) and generates a timestamped report. Ideal for security and maintenance tasks in Linux environments.
+
+---
+
+## ⚙️ Requirements
+
+- Linux-based operating system  
+- Bash installed  
+- Read access on the target folder  
+- Write access in `/backups/reportes`
+
+---
+
+## 🚀 How to use
+
+1. Grant execution permission:
+
+```bash
+chmod +x permission_audit.sh
+
+- Run the script:
+./permission_audit.sh
+
+
+- Enter the folder path to be audited
+- The report will be automatically saved in:
+/backups/reportes/permisos_dd-mm-yyyy.txt
+🧪 Example output📂 Enter the folder path to audit: /home/usuario01/scripts
+🔎 Auditing permissions in: /home/usuario01/scripts
+🕒 Date: 2025-07-13 16:35:00
+-----------------------------------------
+⚠️ /home/usuario01/scripts/install.sh — Permissions: 777 [Insecure]
+⚠️ /home/usuario01/scripts/debug.log — Permissions: 757 [Insecure]
+✅ Audit completed. Report saved at: /backups/reportes/permisos_13-07-2025.txt
+🧠 Technical learnings- Using stat, find, basename, read, tee
+- Detecting risky permission setups (777, write access for others)
+- Automated technical logging
+- Error handling and terminal interaction
+- Simple Bash-based security automation
+📂 Project structurerespaldo-cami/
+├── permission_audit.sh
+├── backups/reportes/
+├── permisos_13-07-2025.txt
+├── LICENSE
+└── README.md
+📄 LicenseMIT License👩‍💻 AuthorCamila — Technical auditing and Bash security, Day 13 🚀
+—
