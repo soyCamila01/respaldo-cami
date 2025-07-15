@@ -602,3 +602,63 @@ chmod +x cron_automator.sh
 └── README.md
 📄 LicenciaMIT License👩‍💻 AutoraCamila — Automatización de tareas técnicas en Bash, Día 14 🚀
 —
+---
+📘 README — TaskPlanner (Day 14) in English
+# 📅 TaskPlanner — Bash Script (Day 14)
+
+Interactive Bash script to automate scheduling of technical tasks using `cron`. It allows users to select existing scripts (like backups, monitoring, or audits) and define their execution frequency without memorizing cron syntax. Ideal for DevOps environments and automated maintenance.
+
+---
+
+## ⚙️ Requirements
+
+- Linux-based operating system  
+- Bash installed  
+- Existing technical scripts in the `respaldo-cami` folder  
+- Access to the `crontab` system
+
+---
+
+## 🚀 How to use
+
+1. Grant execution permission:
+
+```bash
+chmod +x cron_automator.sh
+
+- Run the script:
+
+- Select the script to schedule
+- Choose the execution frequency
+- Confirm whether to add the task to crontab
+🧪 Example output📂 Available scripts in respaldo-cami:
+1) backup.sh
+2) sys_monitor.sh
+3) permission_audit.sh
+👉 Selection: 2
+
+📅 Choose execution frequency:
+1) Every day at 9:00
+2) Every hour
+3) Every 15 minutes
+4) Every Monday at 08:30
+👉 Option: 1
+
+📝 Generated cron line:
+0 9 * * * bash /home/usuario01/respaldo-cami/sys_monitor.sh
+Add to crontab? (y/n): y
+✅ Task successfully scheduled.
+
+🧠 Technical learnings- Using select, read, case, crontab
+- Dynamic cron line construction
+- Script and path validation
+- Safe terminal interaction
+- Technical scheduling automation in Bash
+📂 Project structurerespaldo-cami/
+├── cron_automator.sh
+├── backups/reportes/
+├── tareas_14-07-2025.txt
+├── LICENSE
+└── README.md
+📄 LicenseMIT License👩‍💻 AuthorCamila — Task automation in Bash, Day 14 🚀
+---
