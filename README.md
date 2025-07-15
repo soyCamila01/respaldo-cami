@@ -662,3 +662,101 @@ Add to crontab? (y/n): y
 └── README.md
 📄 LicenseMIT License👩‍💻 AuthorCamila — Task automation in Bash, Day 14 🚀
 ---
+📘 README — Día 15: LogInsight (Análisis de logs en Bash)
+# 📊 LogInsight — Bash Script (Day 15)
+
+Script interactivo en Bash para analizar archivos de log (.log/.txt). Detecta patrones técnicos como errores, advertencias, fallos y accesos, cuenta ocurrencias y genera un resumen técnico. Ideal para tareas de observabilidad, auditoría y mantenimiento automatizado.
+
+---
+
+## ⚙️ Requisitos
+
+- Sistema operativo Linux  
+- Bash instalado  
+- Archivo de log accesible (.log o .txt)  
+- Permiso de escritura en `/backups/reportes`
+
+---
+
+## 🚀 Cómo usar
+
+1. Dar permisos de ejecución:
+
+```bash
+chmod +x log_analysis.sh
+
+
+- Ejecutar el script:
+./log_analysis.sh
+
+
+- Ingresar la ruta del archivo de log
+- El resumen se guardará automáticamente en:
+/backups/reportes/logs_dd-mm-yyyy.txt
+🧪 Ejemplo de ejecución📂 Ingresá la ruta del archivo de log (.log/.txt): ./prueba.log
+📊 Análisis de logs — 2025-07-15 14:45:00
+📄 Archivo analizado: ./prueba.log
+-----------------------------------------
+❌ Errores encontrados: 1
+⚠️ Advertencias: 1
+🚫 Fallos: 1
+✅ Accesos: 1
+
+✅ Resumen guardado en: /backups/reportes/logs_15-07-2025.txt
+🧠 Aprendizajes técnicos- Uso de grep, wc, tee, date, read
+- Detección de patrones técnicos (ERROR, WARNING, FAIL, ACCESS)
+- Generación de reportes automatizados
+- Validación de rutas y archivos
+- Observabilidad básica en Bash
+📂 Estructura del proyectorespaldo-cami/
+├── log_analysis.sh
+├── backups/reportes/
+├── logs_15-07-2025.txt
+├── LICENSE
+└── README.md
+📄 LicenciaMIT License👩‍💻 AutoraCamila — Observabilidad técnica y análisis de logs en Bash, Día 15 🚀
+—
+
+📊 LogInsight — Bash Script (Day 15)
+Interactive Bash script to analyze .log or .txt files. It detects technical patterns such as errors, warnings, failures, and access events, counts their occurrences, and generates a summary report. Perfect for observability, auditing, and automated maintenance tasks.
+
+⚙️ Requirements
+- Linux-based operating system
+- Bash installed
+- Accessible log file (.log or .txt)
+- Write permission in /backups/reportes
+
+🚀 How to use
+- Grant execution permission:
+chmod +x log_analysis.sh
+
+
+- Run the script:
+./log_analysis.sh
+
+
+- Enter the path to the log file
+- The summary will be saved automatically in:
+/backups/reportes/logs_dd-mm-yyyy.txt
+🧪 Example output📂 Enter the path to the log file (.log/.txt): ./prueba.log
+📊 Log analysis — 2025-07-15 14:45:00
+📄 File analyzed: ./prueba.log
+-----------------------------------------
+❌ Errors found: 1
+⚠️ Warnings: 1
+🚫 Failures: 1
+✅ Access events: 1
+
+✅ Summary saved at: /backups/reportes/logs_15-07-2025.txt
+🧠 Technical learnings- Using grep, wc, tee, date, read
+- Pattern detection (ERROR, WARNING, FAIL, ACCESS)
+- Automated report generation
+- File and path validation
+- Basic observability in Bash
+📂 Project structurerespaldo-cami/
+├── log_analysis.sh
+├── backups/reportes/
+├── logs_15-07-2025.txt
+├── LICENSE
+└── README.md
+📄 LicenseMIT License👩‍💻 AuthorCamila — Technical log analysis in Bash, Day 15 🚀
